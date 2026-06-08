@@ -74,6 +74,16 @@ button:active {
   font-size: 20px;
   border-radius: 4px;
   border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8453e7;
+  transform: translateY(-5px);
+}
+
+.btn:active {
+  transform: translateY(1px);
 }
 
 .purple {
@@ -101,19 +111,24 @@ button:active {
   color: #7342d6;
   font-weight: bold;
   padding: 8px;
+  transition: all 0.3s ease;
 }
 
 .nav__link:hover {
   text-decoration: underline;
+  color: #8453e7;
 }
 
 .nav__link--primary {
   border: 2px solid #7342d6;
   border-radius: 4px;
+  transition: all 0.3s ease;
 }
 
 .nav__link--primary:hover {
   text-decoration: none;
+  color: #8453e7;
+  border-color: #8453e7;
 }
 
 .btn__menu {
